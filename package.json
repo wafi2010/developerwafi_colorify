@@ -1,0 +1,24 @@
+{
+  "name": "developerwafi_colorify",
+  "version": "1.0.0",
+  "description": "A library to colorify your console logs",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wafi2010/developerwafi_colorify"
+  },
+  "keywords": [
+    "console log colors",
+    "colorify logs"
+  ],
+  "author": "Wafi Hasan <wafihasan2010@gmail.som>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "files": ["lib/**/*"]
+}
